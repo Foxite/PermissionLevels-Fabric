@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "permissionlevels-fabric",
+	"version": "${version}",
+	"name": "Permission Levels for Fabric",
+	"description": "Overrides the /op command to take a level argument.",
+	"authors": [
+		"Foxite"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Foxite/PermissionLevels-Fabric"
+	},
+	"license": "AGPL-3.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nl.dirkkok.minecraft.fabric.permissionlevels.PermissionLevels"
+		]
+	},
+	"mixins": [
+		"permissionlevels-fabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.11.3",
+		"fabric": "*",
+		"minecraft": "1.18.x",
+		"java": ">=17"
+	},
+	"suggests": {}
+}

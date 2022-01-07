@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "nl.dirkkok.minecraft.fabric.permissionlevels.mixins",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+	],
+	"server": [
+		"RedirectVanillaOpCommandRegisterMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
