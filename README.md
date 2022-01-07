@@ -9,6 +9,8 @@ This command will make the player `username` a level two op. It also has an opti
 
 This will make username a level two op, but does not let them bypass the player limit. The default value is true.
 
+If you need this mod for an older minecraft version feel free to ask for a backport, it should be pretty straightforward.
+
 # License, modpack permissions, acknowledgements
 This mod is licensed AGPL; the short version that any publicly distributed fork must be licensed AGPL, and if you host a public server with a fork of this mod, then that is considered distributing it.
 
